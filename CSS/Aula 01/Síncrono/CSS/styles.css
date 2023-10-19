@@ -1,0 +1,27 @@
+﻿p {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#p-first {
+    font-size: 32px;
+}
+
+.p-color {
+    color:darkseagreen;
+}
+
+img {
+    width: 500px;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 300px;
+}

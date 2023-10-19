@@ -1,0 +1,150 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Noto Sans Regular, sans-serif, helvetica;
+}
+
+body {
+    background-color: #FAF0E6;
+}
+
+@font-face {
+    font-family: Noto Sans Regular;
+    src: url(./fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+
+#botao-menu input {
+    border-radius: 30px;
+}
+
+#botao-menu button {
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#menu {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu li {
+    display: inline;
+    justify-content: right;
+    padding: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
+
+#menu li a:hover {
+    color: green;
+}
+
+.textos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#video {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    margin: 0 auto;
+}
+
+.imagem-container img {
+    padding: 10px;
+    width: 946px;
+    height: 286px;
+}
+
+.top-site {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+}
+
+.inner-topsite {
+    display: block;
+    flex-flow: column nowrap;
+    padding: 50px;
+    width: 300px;
+    border: 2px #87CEEB solid;
+    border-radius: 20px 0 20px 0;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+.inner-topsite a {
+    text-decoration: none;
+    color: #2d507c;
+    font-size: 1em;
+}
+
+.inner-topsite a:hover {
+    color: green;
+}
+
+.footer {
+    padding: 30px;
+}
+
+.input-sobre {
+    padding: 15px;
+}
+
+.input-sobre input {
+    border-radius: 30px 0 30px 0;
+    padding: 10px;
+    border-color: #a875ff;
+    border-collapse: initial;
+}
+
+#flex-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column nowrap;
+    justify-content: center;
+}
+
+#text-submit {
+    display: flex;
+    flex-direction: column nowrap;
+    width: 700px;
+    margin-left: 145px;
+}
+
+#textarea {
+    padding: 30px;
+    border-radius: 30px 0 30px 0;
+    border: none;
+}
+
+#textarea-submit {
+    padding: 17px;
+    border-radius: 30px 0 30px 0;
+    border: none;
+    background-color: #f1e8f3;
+}
