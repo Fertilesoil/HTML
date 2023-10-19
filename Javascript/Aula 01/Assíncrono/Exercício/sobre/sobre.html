@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Exercício/CSS/styless.css">
+    <title>Sobre</title>
+</head>
+
+<body>
+    <ul id="menu">
+        <div id="botao-menu">
+            <input type="text" id="txtBusca" placeholder="Pesquise uma letra" />
+            <button id="btnBusca">Buscar</button>
+        </div>
+        <div>
+            <li><a href="/Exercício/index.html">Home</a></li>
+            <li><a href="/Exercício/sobre/sobre.html">Sobre</a></li>
+        </div>
+    </ul>
+
+
+    <form>
+        <h1>Entre em contato conosco: </h1>
+        <div class="input-sobre"><label for="nome">Nome completo: </label>
+            <input type="text" id="nome" name="nome" onkeyup="validaNome()">
+        </div>
+        <div id="txtnome"></div>
+        <div class="input-sobre">
+            <label for="email">Digite seu e-mail: </label>
+            <input type="email" id="email" name="email" onkeyup="validaEmail()">
+        </div>
+        <div id="txtemail"></div>
+        <div id="flex-text">
+            <div id="text-submit">
+                <textarea id="textarea" name="feedback" rows="6" cols="37"
+                placeholder="Nos dê sua opinião sobre o site .." onkeyup="validaFeedBack()"></textarea>
+                <input id="textarea-submit" type="submit" value="Enviar" onclick="enviar()">
+            </div>
+        </div>
+    </form>
+    <div id="txtfeedback"></div>
+
+
+    <br><br>
+    <br><br>
+    <hr class="hr-color">
+
+    <footer class="footer">
+        <h2>Nossa localização</h2>
+        <h3>Venha nos visitar</h3> <br>
+        <div>
+            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.183889450544
+                !2d-46.648784624669695!3d-23.561838178799476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+                .1!3m3!1m2!1s0x94ce59ba00b9a14d%3A0x3b7d64e4432b3150!2zTHVkdXMgTHVkZXJpYcKu7
+                7iP!5e0!3m2!1spt-BR!2sbr!4v1697569314558!5m2!1spt-BR!2sbr" title="" width="400" height="250"
+                style="border-radius:20px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseleave="mapaNormal()"></iframe>
+        </div>
+    </footer>
+
+    <script src="/Exercício/assets/JS/script.js"></script>
+</body>
+
+</html>
