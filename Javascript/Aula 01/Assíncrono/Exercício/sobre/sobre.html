@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Exercício/CSS/styless.css">
+    <link rel="stylesheet" href="/Javascript/Aula 01/Assíncrono/Exercício/CSS/styless.css">
     <title>Sobre</title>
 </head>
 
@@ -15,11 +15,12 @@
             <button id="btnBusca">Buscar</button>
         </div>
         <div>
-            <li><a href="/Exercício/index.html">Home</a></li>
-            <li><a href="/Exercício/sobre/sobre.html">Sobre</a></li>
+            <li><a href="/Javascript/Aula 01/Assíncrono/Exercício/index.html">Home</a></li>
+            <li><a href="/Javascript/Aula 01/Assíncrono/Exercício/sobre/sobre.html">Sobre</a></li>
         </div>
     </ul>
 
+    <hr class="hr-color">
 
     <form>
         <h1>Entre em contato conosco: </h1>
@@ -34,17 +35,34 @@
         <div id="txtemail"></div>
         <div id="flex-text">
             <div id="text-submit">
-                <textarea id="textarea" name="feedback" rows="6" cols="37"
-                placeholder="Nos dê sua opinião sobre o site .." onkeyup="validaFeedBack()"></textarea>
+                <textarea id="textarea" name="feedback" rows="9" cols="37"
+                    placeholder="Nos dê sua opinião sobre o site .." onkeyup="validaFeedBack()"></textarea>
                 <input id="textarea-submit" type="submit" value="Enviar" onclick="enviar()">
             </div>
         </div>
+        <div id="txtfeedback">
+        </div>
     </form>
-    <div id="txtfeedback"></div>
 
+    <hr class="hr-color">
 
-    <br><br>
-    <br><br>
+    <div id="sobre">
+        <div id="img-tratamento">
+            <img src="/Javascript/Aula 01/Assíncrono/Exercício/assets/images/IMG_9184 (1).JPG"
+                alt="Foto do Criador do Site">
+        </div>
+        <h1>Hi ! My name is Fernando 👯</h1>
+        <h2>Fun facts about me: </h2> <br>
+        <ul>
+            <li>Im into sucking ice cubes, specially when i'm feel anxious</li> <br>
+            <li>Studding english with this content and a couple more</li> <br>
+            <li>Like to de-stress by chanting</li> <br>
+        </ul>
+
+        <p>Please connect with me on <a href="www.linkedin.com/in/fernandodiascosta-dotnet"
+                target="_blank">Linkedin</a></p>
+    </div>
+
     <hr class="hr-color">
 
     <footer class="footer">
@@ -56,11 +74,12 @@
                 .1!3m3!1m2!1s0x94ce59ba00b9a14d%3A0x3b7d64e4432b3150!2zTHVkdXMgTHVkZXJpYcKu7
                 7iP!5e0!3m2!1spt-BR!2sbr!4v1697569314558!5m2!1spt-BR!2sbr" title="" width="400" height="250"
                 style="border-radius:20px;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseleave="mapaNormal()"></iframe>
+                referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()"
+                onmouseleave="mapaNormal()"></iframe>
         </div>
     </footer>
 
-    <script src="/Exercício/assets/JS/script.js"></script>
+    <script src="/Javascript/Aula 01/Assíncrono/Exercício/assets/JS/script.js"></script>
 </body>
 
 </html>

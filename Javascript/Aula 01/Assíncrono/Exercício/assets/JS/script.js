@@ -32,8 +32,8 @@ function validaEmail() {
 
 function validaFeedBack() {
     let txt = document.querySelector('#txtfeedback')
-    if (feedback.value.length >= 150) {
-        txt.innerHTML = 'Máximo 150 caracteres'
+    if (feedback.value.length >= 300) {
+        txt.innerHTML = 'Máximo 300 caracteres'
         txt.style.color = '#f45572'
         txt.style.display = 'inline-block'
     } else {
@@ -51,7 +51,7 @@ function enviar() {
 }
 
 function mapaZoom() {
-    mapa.style.transition = '1.2s ease-in-out'
+    mapa.style.transition = '0.5s ease-in-out'
     mapa.style.width = '700px'
     mapa.style.height = '460px'
 }
